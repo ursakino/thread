@@ -5,7 +5,7 @@
 
 #include <boost/thread/detail/config.hpp>
 #ifdef BOOST_THREAD_ONCE_ATOMIC
-#include "src/pthread/once_atomic.cpp"
+#include "thread/src/pthread/once_atomic.cpp"
 #else
 #define __STDC_CONSTANT_MACROS
 #include <boost/thread/pthread/pthread_mutex_scoped_lock.hpp>
